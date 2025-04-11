@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "allthemodium:unobtainium_ingot"
+    }
+  },
+  "pattern": [
+    "   ",
+    " a ",
+    "a  "
+  ],
+  "result": {
+    "item": "allthemodiumshears:unobtainium_shears"
+  },
+  "show_notification": true
+}

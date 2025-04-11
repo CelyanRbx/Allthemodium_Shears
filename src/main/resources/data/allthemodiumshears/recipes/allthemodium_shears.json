@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "allthemodium:allthemodium_ingot"
+    }
+  },
+  "pattern": [
+    "   ",
+    " a ",
+    "a  "
+  ],
+  "result": {
+    "item": "allthemodiumshears:allthemodium_shears"
+  },
+  "show_notification": true
+}
