@@ -1,18 +1,16 @@
+
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "a": {
-      "item": "allthemodium:allthemodium_ingot"
-    }
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "allthemodium:allthemodium_ingot"
   },
-  "pattern": [
-    "   ",
-    " a ",
-    "a  "
-  ],
+  "base": {
+    "item": "minecraft:shears"
+  },
   "result": {
     "item": "allthemodiumshears:allthemodium_shears"
   },
-  "show_notification": true
+  "template": {
+    "item": "allthemodium:allthemodium_upgrade_smithing_template"
+  }
 }

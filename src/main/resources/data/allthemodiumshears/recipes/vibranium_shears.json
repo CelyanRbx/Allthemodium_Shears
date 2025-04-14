@@ -1,18 +1,16 @@
+
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "v": {
-      "item": "allthemodium:vibranium_ingot"
-    }
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "allthemodium:vibranium_ingot"
   },
-  "pattern": [
-    "   ",
-    " v ",
-    "v  "
-  ],
+  "base": {
+    "item": "allthemodiumshears:allthemodium_shears"
+  },
   "result": {
     "item": "allthemodiumshears:vibranium_shears"
   },
-  "show_notification": true
+  "template": {
+    "item": "allthemodium:vibranium_upgrade_smithing_template"
+  }
 }

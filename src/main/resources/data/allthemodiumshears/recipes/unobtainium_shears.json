@@ -1,18 +1,16 @@
+
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "a": {
-      "item": "allthemodium:unobtainium_ingot"
-    }
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "allthemodium:unobtainium_ingot"
   },
-  "pattern": [
-    "   ",
-    " a ",
-    "a  "
-  ],
+  "base": {
+    "item": "allthemodiumshears:vibranium_shears"
+  },
   "result": {
     "item": "allthemodiumshears:unobtainium_shears"
   },
-  "show_notification": true
+  "template": {
+    "item": "allthemodium:unobtainium_upgrade_smithing_template"
+  }
 }
