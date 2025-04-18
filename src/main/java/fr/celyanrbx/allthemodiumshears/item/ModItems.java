@@ -19,7 +19,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, AllthemodiumShears.MODID);
 
     public static final RegistryObject<Item> ALLTHEMODIUM_SHEARS = ITEMS.register("allthemodium_shears",
-            () -> new ShearsItem(new Item.Properties()) {
+            () -> new ShearsItem(new Item.Properties().stacksTo(1)) {
                 @Override
                 public void appendHoverText(ItemStack stack, Level worldIn, List<Component> tooltip, TooltipFlag flagIn){
                     tooltip.add(TextComponentHelper.createComponentTranslation(null,"indestructible" , new Object()).withStyle(ChatFormatting.GOLD));
@@ -29,7 +29,7 @@ public class ModItems {
             });
 
     public static final RegistryObject<Item> VIBRANIUM_SHEARS = ITEMS.register("vibranium_shears",
-            () -> new ShearsItem(new Item.Properties()) {
+            () -> new ShearsItem(new Item.Properties().stacksTo(1)) {
                 @Override
                 public void appendHoverText(ItemStack stack, Level worldIn, List<Component> tooltip, TooltipFlag flagIn){
                     tooltip.add(TextComponentHelper.createComponentTranslation(null,"indestructible" , new Object()).withStyle(ChatFormatting.GOLD));
@@ -39,7 +39,7 @@ public class ModItems {
             });
 
     public static final RegistryObject<Item> UNOBTAINIUM_SHEARS = ITEMS.register("unobtainium_shears",
-            () -> new ShearsItem(new Item.Properties()) {
+            () -> new ShearsItem(new Item.Properties().stacksTo(1)) {
                 @Override
                 public void appendHoverText(ItemStack stack, Level worldIn, List<Component> tooltip, TooltipFlag flagIn){
                     tooltip.add(TextComponentHelper.createComponentTranslation(null,"indestructible" , new Object()).withStyle(ChatFormatting.GOLD));
