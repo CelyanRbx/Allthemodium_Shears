@@ -1,5 +1,6 @@
 package fr.celyanrbx.allthemodiumshears.item;
 
+import com.thevortex.allthemodium.material.ATMTier;
 import fr.celyanrbx.allthemodiumshears.AllthemodiumShears;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.world.item.Item;
@@ -20,7 +21,6 @@ public class ModItems {
 
     public static final DeferredItem<Item> UNOBTAINIUM_SHEARS = ITEMS.register("unobtainium_shears",
             () -> new ShearsItem(new Item.Properties().stacksTo(1).component(DataComponents.UNBREAKABLE, new Unbreakable(true))));
-
 
 
     public static void register(IEventBus eventBus) {
