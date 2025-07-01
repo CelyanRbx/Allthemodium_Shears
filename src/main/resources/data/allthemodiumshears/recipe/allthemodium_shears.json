@@ -7,7 +7,7 @@
     "item": "minecraft:shears"
   },
   "result": {
-    "item": "allthemodiumshears:allthemodium_shears"
+    "id": "allthemodiumshears:allthemodium_shears"
   },
   "template": {
     "item": "allthemodium:allthemodium_upgrade_smithing_template"

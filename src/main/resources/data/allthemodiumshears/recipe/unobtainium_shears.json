@@ -7,7 +7,7 @@
     "item": "allthemodiumshears:vibranium_shears"
   },
   "result": {
-    "item": "allthemodiumshears:unobtainium_shears"
+    "id": "allthemodiumshears:unobtainium_shears"
   },
   "template": {
     "item": "allthemodium:unobtainium_upgrade_smithing_template"
