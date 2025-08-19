@@ -137,9 +137,9 @@ dependencies {
     // localRuntime "mezz.jei:jei-${mc_version}-neoforge:${jei_version}"
 
     implementation "curse.maven:jei-238222:5846880"
-    implementation "curse.maven:allthemodium-364466:6389532"
+    implementation "curse.maven:allthemodium-364466:6638078"
     implementation "curse.maven:ato-405593:6118610"
-    implementation "curse.maven:geckolib-388172:6304958"
+    implementation "curse.maven:geckolib-388172:6659026"
 
     // Example mod dependency using a mod jar from ./libs with a flat dir repository
     // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
